@@ -5,6 +5,6 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.3/install.sh | b
 . ~/.nvm/nvm.sh
 nvm install v14.15.0
 node -v
-npm install -g @angular/cli
+npm install -g @angular/cli@10.0.5
 ng --version
 ng build --prod
